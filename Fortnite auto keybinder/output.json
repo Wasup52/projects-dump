@@ -1,0 +1,59 @@
+{
+    "Movement": {
+        "Forward": " ",
+        "Left": "q",
+        "Backward": "s",
+        "Right": "d",
+        "Jump": "Space Bar",
+        "Sprint": "Left Shift",
+        "Auto Run": "=",
+        "Crouch": "Left Ctrl"
+    },
+    "Combat": {
+        "Fire": "Left Mouse Button",
+        "Target": "Right Mouse Button",
+        "Reload": "r",
+        "Use": "e",
+        "Harvesting Tool": "&",
+        "Weapon Slot 1": "1",
+        "Weapon Slot 2": "2",
+        "Weapon Slot 3": "3",
+        "Weapon Slot 4": "4",
+        "Weapon Slot 5": "5"
+    },
+    "Building": {
+        "Wall": "a",
+        "Floor": "v",
+        "Stairs": "e",
+        "Roof": "Mouse Up",
+        "Trap": "Mouse Down",
+        "Place Building": "Left Mouse Button",
+        "Repair/Upgrade": "h",
+        "Rotate Building": "r",
+        "Change Building Material": "Right Mouse Button",
+        "Building Edit": "g",
+        "Select Edit": "Right Mouse Button",
+        "Reset Building Edit": "Right Mouse Button"
+    },
+    "Communication": {
+        "Ping/Place Marker": "Middle Mouse Button",
+        "Place Enemy Marker": null,
+        "Push To Talk": null,
+        "Squad Comms": "t",
+        "Chat": "Enter"
+    },
+    "Emote": {
+        "Emote": "b"
+    },
+    "Miscellaneous": {
+        "Trap Equip/Picker": "F3",
+        "Switch Quickbar": "Middle Mouse Button",
+        "Slot Up": null,
+        "Slot Down": null,
+        "Previous Picker Wheel": "Left",
+        "Next Picker Wheel": "Right",
+        "Cursor Mode": "Left Alt",
+        "Toggle Map": "M",
+        "Toggle Inventory": "Tab"
+    }
+}

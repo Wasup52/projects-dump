@@ -1,0 +1,73 @@
+{
+    "Movement": {
+        "Forward": "w",
+        "Left": "a",
+        "Backward": "s",
+        "Right": "d",
+        "Jump": "Space Bar",
+        "Sprint": "Shift",
+        "Auto Run": "=",
+        "Crouch": "Left Ctrl"
+    },
+    "Combat": {
+        "Fire": "Left Mouse Button",
+        "Target": "Right Mouse Button",
+        "Reload": "r",
+        "Use": "e",
+        "Harvesting Tool": null,
+        "Weapon Slot 1": "1",
+        "Weapon Slot 2": "2",
+        "Weapon Slot 3": "3",
+        "Weapon Slot 4": "4",
+        "Weapon Slot 5": "5"
+    },
+    "Building": {
+        "Crouch Whill Building": "Left Ctrl",
+        "Wall": "z",
+        "Floor": "x",
+        "Stairs": "c",
+        "Roof": "v",
+        "Trap": "y",
+        "Place Building": "Left Mouse Button",
+        "Repair/Upgrade": "h",
+        "Rotate Building": "r",
+        "Change Building Material": "Right Mouse Button",
+        "Building Edit": "g",
+        "Crouch Whill Editing": "Left Ctrl",
+        "Select Edit": "Left Mouse Button",
+        "Reset Building Edit": "Right Mouse Button"
+    },
+    "Communication": {
+        "Ping/Place Marker": "Middle Mouse Button",
+        "Place Enemy Marker": null,
+        "Push To Talk": "t",
+        "Squad Comms": "F4",
+        "Chat": "Enter"
+    },
+    "Emote": {
+        "Emote": "b"
+    },
+    "Miscellaneous": {
+        "Trap Equip/Picker": "F3",
+        "Switch Quickbar": "q",
+        "Slot Down": "Mouse Wheel Down",
+        "Slot Up": "Mouse Wheel Up",
+        "Previous Picker Wheel": "Mouse Wheel Down",
+        "Next Picker Wheel": "Mouse Wheel Up",
+        "Cursor Mode": "Left Alt",
+        "Toggle Map": "m",
+        "Toggle Inventory": "Tab",
+        "Carry": "f",
+        "Place Down KO player": "f",
+        "Carry Object": "f",
+        "Place Down Object": "f"
+    },
+    "Vehicles - Motorboat": {
+        "Driver Boost": "Shift",
+        "Driver Fire": "Left Mouse Button",
+        "Driver Targerting": "Right Mouse Button",
+        "Driver Exit": "e",
+        "Passenger Use/Exit": "e",
+        "Switch Seat": "Left Ctrl"
+    }
+}

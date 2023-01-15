@@ -1,0 +1,4 @@
+NumpadEnter::
+{
+    Click
+}

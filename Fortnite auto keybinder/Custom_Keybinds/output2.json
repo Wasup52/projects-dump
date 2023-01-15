@@ -1,0 +1,73 @@
+{
+    "Movement": {
+        "Forward": "z",
+        "Left": "q",
+        "Backward": "s",
+        "Right": "d",
+        "Jump": "Space Bar",
+        "Sprint": "Shift",
+        "Auto Run": "c",
+        "Crouch": "CapsLock"
+    },
+    "Combat": {
+        "Fire": "Left Mouse Button",
+        "Target": "Right Mouse Button",
+        "Reload": "r",
+        "Use": "f",
+        "Harvesting Tool": "&",
+        "Weapon Slot 1": "\u00e9",
+        "Weapon Slot 2": "\"",
+        "Weapon Slot 3": "'",
+        "Weapon Slot 4": "(",
+        "Weapon Slot 5": "-"
+    },
+    "Building": {
+        "Crouch Whill Building": "CapsLock",
+        "Wall": "a",
+        "Floor": "v",
+        "Stairs": "e",
+        "Roof": "Mouse Up",
+        "Trap": "Mouse Down",
+        "Place Building": "Left Mouse Button",
+        "Repair/Upgrade": "y",
+        "Rotate Building": "r",
+        "Change Building Material": "Right Mouse Button",
+        "Building Edit": "Xbutton1",
+        "Crouch Whill Editing": "CapsLock",
+        "Select Edit": "Left Mouse Button",
+        "Reset Building Edit": "Right Mouse Button"
+    },
+    "Communication": {
+        "Ping/Place Marker": "Xbutton2",
+        "Place Enemy Marker": null,
+        "Push To Talk": null,
+        "Squad Comms": "t",
+        "Chat": "Enter"
+    },
+    "Emote": {
+        "Emote": "b"
+    },
+    "Miscellaneous": {
+        "Trap Equip/Picker": "F3",
+        "Switch Quickbar": "Middle Mouse Button",
+        "Slot Down": null,
+        "Slot Up": null,
+        "Previous Picker Wheel": "Mouse Wheel Down",
+        "Next Picker Wheel": "Mouse Wheel Up",
+        "Cursor Mode": "Left Alt",
+        "Toggle Map": "g",
+        "Toggle Inventory": "Tab",
+        "Carry": "f",
+        "Place Down KO player": "f",
+        "Carry Object": "f",
+        "Place Down Object": "f"
+    },
+    "Vehicles - Motorboat": {
+        "Driver Boost": "Shift",
+        "Driver Fire": "Left Mouse Button",
+        "Driver Targerting": "Right Mouse Button",
+        "Driver Exit": "f",
+        "Passenger Use/Exit": "f",
+        "Switch Seat": "CapsLock"
+    }
+}

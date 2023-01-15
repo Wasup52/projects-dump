@@ -1,0 +1,1418 @@
+request url : https://gql.twitch.tv/gql
+payload : [{"operationName":"ChannelVideoShelvesQuery","variables":{"channelLogin":"aminematue","first":5},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"8afefb1ed16c4d8e20fa55024a7ed1727f63b6eca47d8d33a28500770bad8479"}}}]
+response : 
+[
+  {
+    "data": {
+      "currentUser": null,
+      "user": {
+        "id": "407388596",
+        "videoShelves": {
+          "edges": [
+            {
+              "cursor": "0",
+              "node": {
+                "id": "9d866cfd-a024-45c2-8e78-4be19829f53f",
+                "title": "Recent broadcasts",
+                "description": null,
+                "type": "LATEST_BROADCASTS",
+                "collection": null,
+                "items": [
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/c927804060dff13b8b97_aminematue_46105228364_1664124590/storyboards/1601100638-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1601100638",
+                    "lengthSeconds": 19316,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/c927804060dff13b8b97_aminematue_46105228364_1664124590//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-25T16:49:56Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "AHHHHHHHHHHHHHHHHHHHHHHHHHHHH",
+                    "viewCount": 709402,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/2ba1cf091bd7b7f6ae91_aminematue_46097304780_1663961426/storyboards/1599232078-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1599232078",
+                    "lengthSeconds": 9380,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/2ba1cf091bd7b7f6ae91_aminematue_46097304780_1663961426//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-23T19:30:31Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "LA ROUE DE LA MORT AVEC BILLY - celui qui rigole le + perd et tourne la roue",
+                    "viewCount": 508799,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/c1df6b902c13754d5f6c_aminematue_46082236172_1663613897/storyboards/1595600765-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1595600765",
+                    "lengthSeconds": 12086,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/c1df6b902c13754d5f6c_aminematue_46082236172_1663613897//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-19T18:58:22Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "BONSOIR COMMENT ALLEZ VOUS",
+                    "viewCount": 586211,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/7660d3e59a56d73b81e3_aminematue_46069177868_1663351352/storyboards/1592649183-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1592649183",
+                    "lengthSeconds": 12332,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/7660d3e59a56d73b81e3_aminematue_46069177868_1663351352//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-16T18:02:37Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "plop !",
+                    "viewCount": 430360,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/80f9d77f3acaa9e76daf_aminematue_46065443516_1663264342/storyboards/1591750512-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1591750512",
+                    "lengthSeconds": 18820,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/80f9d77f3acaa9e76daf_aminematue_46065443516_1663264342//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-15T17:52:29Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "HEYYYYYYYYYYYYYYYYY",
+                    "viewCount": 636001,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      },
+                      {
+                        "id": "c2839af5-f1d2-46c4-8edc-1d0bfbd85070",
+                        "isLanguageTag": false,
+                        "localizedName": "Hype Train",
+                        "tagName": "auto___hypetrain_hypetrain",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/d46963a3a97617d5b39a_aminematue_46055080764_1663007816/storyboards/1589166574-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1589166574",
+                    "lengthSeconds": 29114,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/d46963a3a97617d5b39a_aminematue_46055080764_1663007816//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-12T18:37:01Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "HEYYYYYY STREAM DE FOU",
+                    "viewCount": 886340,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      },
+                      {
+                        "id": "c2839af5-f1d2-46c4-8edc-1d0bfbd85070",
+                        "isLanguageTag": false,
+                        "localizedName": "Hype Train",
+                        "tagName": "auto___hypetrain_hypetrain",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/ebde9a438b68b6e48d38_aminematue_46052195996_1662925891/storyboards/1588401747-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1588401747",
+                    "lengthSeconds": 17078,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/ebde9a438b68b6e48d38_aminematue_46052195996_1662925891//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-11T19:51:36Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "trop trop heureux de vous retrouver",
+                    "viewCount": 918552,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/a95c0a78afe89faf1caa_aminematue_46039526508_1662659359/storyboards/1585449790-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1585449790",
+                    "lengthSeconds": 6392,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/a95c0a78afe89faf1caa_aminematue_46039526508_1662659359//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-08T17:49:24Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "SPEEDPORTAL FOOTBALL TEST - ON AFFRONTE UN JOUEUR DU PSG Feat Hugo Ekitike, Billy, Inox.",
+                    "viewCount": 401689,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/dac2757573ff8b12243e_aminematue_46036253132_1662575796/storyboards/1584599827-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1584599827",
+                    "lengthSeconds": 13104,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/dac2757573ff8b12243e_aminematue_46036253132_1662575796//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-07T18:36:43Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "hey les plus beaux",
+                    "viewCount": 417814,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/d1cba69ac89b366771ac_aminematue_46025418972_1662320172/storyboards/1581929182-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1581929182",
+                    "lengthSeconds": 13938,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/d1cba69ac89b366771ac_aminematue_46025418972_1662320172//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-04T19:36:17Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "soirée très cool",
+                    "viewCount": 553103,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/47d2d14c5bfb2d494c37_aminematue_45992056748_1661718978/storyboards/1575409781-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1575409781",
+                    "lengthSeconds": 6576,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/47d2d14c5bfb2d494c37_aminematue_45992056748_1661718978//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-08-28T20:36:25Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "je suis en retard je sais :D",
+                    "viewCount": 375114,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/d0722fd0b835b0259f88_aminematue_45968695180_1661364078/storyboards/1571410286-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1571410286",
+                    "lengthSeconds": 16282,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/d0722fd0b835b0259f88_aminematue_45968695180_1661364078//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-08-24T18:01:24Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "salut les bogoss :D",
+                    "viewCount": 637597,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  }
+                ],
+                "__typename": "VideoShelf"
+              },
+              "__typename": "VideoShelfEdge"
+            },
+            {
+              "cursor": "1",
+              "node": {
+                "id": "3a7146ab-dd1b-497a-aeb9-ec76598b0c48",
+                "title": "Popular clips",
+                "description": null,
+                "type": "TOP_CLIPS",
+                "collection": null,
+                "items": [
+                  {
+                    "id": "2444594346",
+                    "slug": "IcyColdCockroachTBCheesePull-CNYqaW69fuA-mNX3",
+                    "clipTitle": "C'est clipé et c'est HORS CONTEXTE ( #secondegre )",
+                    "clipViewCount": 5807,
+                    "curator": {
+                      "id": "465867974",
+                      "login": "dfalm",
+                      "displayName": "Dfalm",
+                      "__typename": "User"
+                    },
+                    "clipGame": {
+                      "id": "509658",
+                      "name": "Just Chatting",
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-52x72.jpg",
+                      "__typename": "Game"
+                    },
+                    "broadcaster": {
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "displayName": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "thumbnailURL": "https://clips-media-assets2.twitch.tv/7AwzEQjWKmluvX7gPpjV9w/AT-cm%7C7AwzEQjWKmluvX7gPpjV9w-preview-260x147.jpg",
+                    "createdAt": "2022-09-11T22:19:48Z",
+                    "durationSeconds": 16,
+                    "__typename": "Clip"
+                  },
+                  {
+                    "id": "1137002964",
+                    "slug": "DeadSecretiveWatercressKlappa-7Zp_LPkB3EZT-j8Z",
+                    "clipTitle": "LA ROUE DE LA MORT AVEC BILLY - celui qui rigole le + perd et tourne la roue",
+                    "clipViewCount": 4107,
+                    "curator": {
+                      "id": "195721400",
+                      "login": "lunatikmax",
+                      "displayName": "lunatikmax",
+                      "__typename": "User"
+                    },
+                    "clipGame": {
+                      "id": "509658",
+                      "name": "Just Chatting",
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-52x72.jpg",
+                      "__typename": "Game"
+                    },
+                    "broadcaster": {
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "displayName": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "thumbnailURL": "https://clips-media-assets2.twitch.tv/lTVnCe2afyz5AdxGU_o_GQ/46097304780-offset-132-preview-260x147.jpg",
+                    "createdAt": "2022-09-23T19:32:43Z",
+                    "durationSeconds": 26,
+                    "__typename": "Clip"
+                  },
+                  {
+                    "id": "1254302010",
+                    "slug": "PricklyPrettiestPanPhilosoraptor-dxGfh4ArTaLBu4NJ",
+                    "clipTitle": "soirée très cool",
+                    "clipViewCount": 3817,
+                    "curator": {
+                      "id": "757209049",
+                      "login": "eylaaaaaaaaaaaaaa",
+                      "displayName": "eylaaaaaaaaaaaaaa",
+                      "__typename": "User"
+                    },
+                    "clipGame": {
+                      "id": "509658",
+                      "name": "Just Chatting",
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-52x72.jpg",
+                      "__typename": "Game"
+                    },
+                    "broadcaster": {
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "displayName": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "thumbnailURL": "https://clips-media-assets2.twitch.tv/hlF4jncRn4eAK02iwbuDSQ/46025418972-offset-482-preview-260x147.jpg",
+                    "createdAt": "2022-09-04T19:44:27Z",
+                    "durationSeconds": 30,
+                    "__typename": "Clip"
+                  },
+                  {
+                    "id": "3139305021",
+                    "slug": "ArbitraryConfidentBaboonKappa-ngqkxI0yGjOvPkb_",
+                    "clipTitle": "LA ROUE DE LA MORT AVEC BILLY - celui qui rigole le + perd et tourne la roue",
+                    "clipViewCount": 2642,
+                    "curator": {
+                      "id": "32801311",
+                      "login": "enima___",
+                      "displayName": "Enima___",
+                      "__typename": "User"
+                    },
+                    "clipGame": {
+                      "id": "509658",
+                      "name": "Just Chatting",
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-52x72.jpg",
+                      "__typename": "Game"
+                    },
+                    "broadcaster": {
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "displayName": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "thumbnailURL": "https://clips-media-assets2.twitch.tv/aq1uxp4KpMSNMhozrz5G_w/46097304780-offset-344-preview-260x147.jpg",
+                    "createdAt": "2022-09-23T19:36:16Z",
+                    "durationSeconds": 28,
+                    "__typename": "Clip"
+                  },
+                  {
+                    "id": "3201151283",
+                    "slug": "CorrectHandsomeCoffeeWholeWheat-CHoEwTWUeW745wzx",
+                    "clipTitle": "I tow vehicles for the QUOI ? (Ft. Kameto) ",
+                    "clipViewCount": 2475,
+                    "curator": {
+                      "id": "138240914",
+                      "login": "mrfernooo",
+                      "displayName": "mrfernooo",
+                      "__typename": "User"
+                    },
+                    "clipGame": {
+                      "id": "32982",
+                      "name": "Grand Theft Auto V",
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-52x72.jpg",
+                      "__typename": "Game"
+                    },
+                    "broadcaster": {
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "displayName": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "thumbnailURL": "https://clips-media-assets2.twitch.tv/u1RXcQh6BME1lHlu-OcM8Q/AT-cm%7Cu1RXcQh6BME1lHlu-OcM8Q-preview-260x147.jpg",
+                    "createdAt": "2022-09-12T22:07:26Z",
+                    "durationSeconds": 20,
+                    "__typename": "Clip"
+                  },
+                  {
+                    "id": "3773770906",
+                    "slug": "CreativeElegantGiraffeOptimizePrime-M0ekmrH__5LrZ215",
+                    "clipTitle": "PARDON??!! (remake de COMBIEN??!!)",
+                    "clipViewCount": 2091,
+                    "curator": {
+                      "id": "54665589",
+                      "login": "barluke_",
+                      "displayName": "Barluke_",
+                      "__typename": "User"
+                    },
+                    "clipGame": {
+                      "id": "509658",
+                      "name": "Just Chatting",
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-52x72.jpg",
+                      "__typename": "Game"
+                    },
+                    "broadcaster": {
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "displayName": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "thumbnailURL": "https://clips-media-assets2.twitch.tv/1LXgRDNHpJqx__-S62dteQ/AT-cm%7C1LXgRDNHpJqx__-S62dteQ-preview-260x147.jpg",
+                    "createdAt": "2022-09-11T22:14:42Z",
+                    "durationSeconds": 13,
+                    "__typename": "Clip"
+                  },
+                  {
+                    "id": "1116985390",
+                    "slug": "EntertainingDrabLobsterHoneyBadger-uTslwXERH1MfoDpU",
+                    "clipTitle": "Amine, le son !",
+                    "clipViewCount": 1656,
+                    "curator": {
+                      "id": "98247699",
+                      "login": "alphadius",
+                      "displayName": "Alphadius",
+                      "__typename": "User"
+                    },
+                    "clipGame": {
+                      "id": "509658",
+                      "name": "Just Chatting",
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-52x72.jpg",
+                      "__typename": "Game"
+                    },
+                    "broadcaster": {
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "displayName": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "thumbnailURL": "https://clips-media-assets2.twitch.tv/NCR_prk7JcFxER9TH6A6VA/AT-cm%7CNCR_prk7JcFxER9TH6A6VA-preview-260x147.jpg",
+                    "createdAt": "2022-08-28T20:39:19Z",
+                    "durationSeconds": 20,
+                    "__typename": "Clip"
+                  },
+                  {
+                    "id": "653515790",
+                    "slug": "CleanGoldenPorcupineAMPTropPunch-iUQCO8zehM05zOCz",
+                    "clipTitle": "No",
+                    "clipViewCount": 1591,
+                    "curator": {
+                      "id": "120759802",
+                      "login": "eipadreee",
+                      "displayName": "eIpadreee",
+                      "__typename": "User"
+                    },
+                    "clipGame": {
+                      "id": "32982",
+                      "name": "Grand Theft Auto V",
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-52x72.jpg",
+                      "__typename": "Game"
+                    },
+                    "broadcaster": {
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "displayName": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "thumbnailURL": "https://clips-media-assets2.twitch.tv/40Rdo4lEAjvM3oTNOczgsw/AT-cm%7C40Rdo4lEAjvM3oTNOczgsw-preview-260x147.jpg",
+                    "createdAt": "2022-09-13T02:02:55Z",
+                    "durationSeconds": 35,
+                    "__typename": "Clip"
+                  },
+                  {
+                    "id": "151625377",
+                    "slug": "AstuteBombasticGazelleHeyGuys-BBEjWlhu29-a1GBj",
+                    "clipTitle": "LA ROUE DE LA MORT AVEC BILLY - celui qui rigole le + perd et tourne la roue",
+                    "clipViewCount": 1578,
+                    "curator": {
+                      "id": "117838915",
+                      "login": "snak00s",
+                      "displayName": "Snak00s",
+                      "__typename": "User"
+                    },
+                    "clipGame": {
+                      "id": "509658",
+                      "name": "Just Chatting",
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-52x72.jpg",
+                      "__typename": "Game"
+                    },
+                    "broadcaster": {
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "displayName": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "thumbnailURL": "https://clips-media-assets2.twitch.tv/PUzMvAQRI1pYbtvfmtRgYw/46097304780-offset-670-preview-260x147.jpg",
+                    "createdAt": "2022-09-23T19:41:43Z",
+                    "durationSeconds": 28,
+                    "__typename": "Clip"
+                  },
+                  {
+                    "id": "2672547207",
+                    "slug": "BeautifulBadOryx4Head-_ROwatifoCLr_3yI",
+                    "clipTitle": "IL A BU",
+                    "clipViewCount": 1429,
+                    "curator": {
+                      "id": "26183863",
+                      "login": "crazykonga",
+                      "displayName": "Crazykonga",
+                      "__typename": "User"
+                    },
+                    "clipGame": {
+                      "id": "509658",
+                      "name": "Just Chatting",
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-52x72.jpg",
+                      "__typename": "Game"
+                    },
+                    "broadcaster": {
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "displayName": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "thumbnailURL": "https://clips-media-assets2.twitch.tv/SE0lf_0TsGrYn6Ai6_98iA/AT-cm%7CSE0lf_0TsGrYn6Ai6_98iA-preview-260x147.jpg",
+                    "createdAt": "2022-09-08T18:41:47Z",
+                    "durationSeconds": 40,
+                    "__typename": "Clip"
+                  },
+                  {
+                    "id": "1567081906",
+                    "slug": "SteamyDirtySwallowKappaRoss-FfTvQHGf1hlHwAN1",
+                    "clipTitle": "part1",
+                    "clipViewCount": 1303,
+                    "curator": {
+                      "id": "659544156",
+                      "login": "maskof__",
+                      "displayName": "Maskof__",
+                      "__typename": "User"
+                    },
+                    "clipGame": {
+                      "id": "509658",
+                      "name": "Just Chatting",
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-52x72.jpg",
+                      "__typename": "Game"
+                    },
+                    "broadcaster": {
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "displayName": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "thumbnailURL": "https://clips-media-assets2.twitch.tv/SqVbMRX070Bxn9YZR8ADdQ/AT-cm%7CSqVbMRX070Bxn9YZR8ADdQ-preview-260x147.jpg",
+                    "createdAt": "2022-09-23T19:37:18Z",
+                    "durationSeconds": 59,
+                    "__typename": "Clip"
+                  },
+                  {
+                    "id": "124448729",
+                    "slug": "HelpfulEagerPotCoolStoryBob-SDhCvklVwOlWNvAg",
+                    "clipTitle": "LA ROUE DE LA MORT AVEC BILLY - celui qui rigole le + perd et tourne la roue",
+                    "clipViewCount": 1149,
+                    "curator": {
+                      "id": "35819148",
+                      "login": "lyhria",
+                      "displayName": "Lyhria",
+                      "__typename": "User"
+                    },
+                    "clipGame": {
+                      "id": "509658",
+                      "name": "Just Chatting",
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-52x72.jpg",
+                      "__typename": "Game"
+                    },
+                    "broadcaster": {
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "displayName": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "thumbnailURL": "https://clips-media-assets2.twitch.tv/TaO9aUg4Qr5JVcDpVjbwIA/46097304780-offset-434-preview-260x147.jpg",
+                    "createdAt": "2022-09-23T19:37:47Z",
+                    "durationSeconds": 28,
+                    "__typename": "Clip"
+                  }
+                ],
+                "__typename": "VideoShelf"
+              },
+              "__typename": "VideoShelfEdge"
+            },
+            {
+              "cursor": "2",
+              "node": {
+                "id": "55f1781b-928d-4d98-b5be-c90e832cbada",
+                "title": "All videos",
+                "description": null,
+                "type": "ALL_VIDEOS",
+                "collection": null,
+                "items": [
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/c927804060dff13b8b97_aminematue_46105228364_1664124590/storyboards/1601100638-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1601100638",
+                    "lengthSeconds": 19316,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/c927804060dff13b8b97_aminematue_46105228364_1664124590//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-25T16:49:56Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "AHHHHHHHHHHHHHHHHHHHHHHHHHHHH",
+                    "viewCount": 709402,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/2ba1cf091bd7b7f6ae91_aminematue_46097304780_1663961426/storyboards/1599232078-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1599232078",
+                    "lengthSeconds": 9380,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/2ba1cf091bd7b7f6ae91_aminematue_46097304780_1663961426//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-23T19:30:31Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "LA ROUE DE LA MORT AVEC BILLY - celui qui rigole le + perd et tourne la roue",
+                    "viewCount": 508799,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/c1df6b902c13754d5f6c_aminematue_46082236172_1663613897/storyboards/1595600765-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1595600765",
+                    "lengthSeconds": 12086,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/c1df6b902c13754d5f6c_aminematue_46082236172_1663613897//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-19T18:58:22Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "BONSOIR COMMENT ALLEZ VOUS",
+                    "viewCount": 586211,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/7660d3e59a56d73b81e3_aminematue_46069177868_1663351352/storyboards/1592649183-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1592649183",
+                    "lengthSeconds": 12332,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/7660d3e59a56d73b81e3_aminematue_46069177868_1663351352//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-16T18:02:37Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "plop !",
+                    "viewCount": 430360,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/80f9d77f3acaa9e76daf_aminematue_46065443516_1663264342/storyboards/1591750512-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1591750512",
+                    "lengthSeconds": 18820,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/80f9d77f3acaa9e76daf_aminematue_46065443516_1663264342//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-15T17:52:29Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "HEYYYYYYYYYYYYYYYYY",
+                    "viewCount": 636001,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      },
+                      {
+                        "id": "c2839af5-f1d2-46c4-8edc-1d0bfbd85070",
+                        "isLanguageTag": false,
+                        "localizedName": "Hype Train",
+                        "tagName": "auto___hypetrain_hypetrain",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/d46963a3a97617d5b39a_aminematue_46055080764_1663007816/storyboards/1589166574-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1589166574",
+                    "lengthSeconds": 29114,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/d46963a3a97617d5b39a_aminematue_46055080764_1663007816//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-12T18:37:01Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "HEYYYYYY STREAM DE FOU",
+                    "viewCount": 886340,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      },
+                      {
+                        "id": "c2839af5-f1d2-46c4-8edc-1d0bfbd85070",
+                        "isLanguageTag": false,
+                        "localizedName": "Hype Train",
+                        "tagName": "auto___hypetrain_hypetrain",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/ebde9a438b68b6e48d38_aminematue_46052195996_1662925891/storyboards/1588401747-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1588401747",
+                    "lengthSeconds": 17078,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/ebde9a438b68b6e48d38_aminematue_46052195996_1662925891//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-11T19:51:36Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "trop trop heureux de vous retrouver",
+                    "viewCount": 918552,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/a95c0a78afe89faf1caa_aminematue_46039526508_1662659359/storyboards/1585449790-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1585449790",
+                    "lengthSeconds": 6392,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/a95c0a78afe89faf1caa_aminematue_46039526508_1662659359//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-08T17:49:24Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "SPEEDPORTAL FOOTBALL TEST - ON AFFRONTE UN JOUEUR DU PSG Feat Hugo Ekitike, Billy, Inox.",
+                    "viewCount": 401689,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/dac2757573ff8b12243e_aminematue_46036253132_1662575796/storyboards/1584599827-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1584599827",
+                    "lengthSeconds": 13104,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/dac2757573ff8b12243e_aminematue_46036253132_1662575796//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-07T18:36:43Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "hey les plus beaux",
+                    "viewCount": 417814,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/d1cba69ac89b366771ac_aminematue_46025418972_1662320172/storyboards/1581929182-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1581929182",
+                    "lengthSeconds": 13938,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/d1cba69ac89b366771ac_aminematue_46025418972_1662320172//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-09-04T19:36:17Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "soirée très cool",
+                    "viewCount": 553103,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/47d2d14c5bfb2d494c37_aminematue_45992056748_1661718978/storyboards/1575409781-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1575409781",
+                    "lengthSeconds": 6576,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/47d2d14c5bfb2d494c37_aminematue_45992056748_1661718978//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-08-28T20:36:25Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "je suis en retard je sais :D",
+                    "viewCount": 375114,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  },
+                  {
+                    "animatedPreviewURL": "https://dgeft87wbj63p.cloudfront.net/d0722fd0b835b0259f88_aminematue_45968695180_1661364078/storyboards/1571410286-strip-0.jpg",
+                    "game": {
+                      "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-40x56.jpg",
+                      "id": "509658",
+                      "displayName": "Just Chatting",
+                      "name": "Just Chatting",
+                      "__typename": "Game"
+                    },
+                    "id": "1571410286",
+                    "lengthSeconds": 16282,
+                    "owner": {
+                      "displayName": "aminematue",
+                      "id": "407388596",
+                      "login": "aminematue",
+                      "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-50x50.png",
+                      "primaryColorHex": "08050C",
+                      "__typename": "User"
+                    },
+                    "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/d0722fd0b835b0259f88_aminematue_45968695180_1661364078//thumb/thumb0-320x180.jpg",
+                    "publishedAt": "2022-08-24T18:01:24Z",
+                    "self": {
+                      "isRestricted": false,
+                      "viewingHistory": null,
+                      "__typename": "VideoSelfEdge"
+                    },
+                    "title": "salut les bogoss :D",
+                    "viewCount": 637597,
+                    "resourceRestriction": null,
+                    "contentTags": [
+                      {
+                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                        "isLanguageTag": true,
+                        "localizedName": "French",
+                        "tagName": "auto___lang_fr",
+                        "__typename": "Tag"
+                      }
+                    ],
+                    "__typename": "Video"
+                  }
+                ],
+                "__typename": "VideoShelf"
+              },
+              "__typename": "VideoShelfEdge"
+            }
+          ],
+          "pageInfo": {
+            "hasNextPage": false,
+            "__typename": "PageInfo"
+          },
+          "__typename": "VideoShelfConnection"
+        },
+        "__typename": "User"
+      }
+    },
+    "extensions": {
+      "durationMilliseconds": 413,
+      "operationName": "ChannelVideoShelvesQuery",
+      "requestID": "01GDWZKFFD83DMSWQ3HAZFT242"
+    }
+  }
+]

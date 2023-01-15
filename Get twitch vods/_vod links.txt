@@ -1,0 +1,43 @@
+---------------------------27/06/2021---------------------------
+https://dgeft87wbj63p.cloudfront.net/7f3d730b59e832646cf9_zwave69_42468752012_1624827719/chunked/index-dvr.m3u8 2021-06-27 21:01:59
+
+---------------------------28/06/2021---------------------------
+https://dgeft87wbj63p.cloudfront.net/3aaecca17dc4dc7e0fd5_zwave69_42478178284_1624919207/chunked/index-dvr.m3u8 2021-06-28 22:26:47
+
+---------------------------29/06/2021---------------------------
+https://dgeft87wbj63p.cloudfront.net/03e051a8fbad096b8597_zwave69_42486376524_1624993084/chunked/index-dvr.m3u8 2021-06-29 18:58:04
+
+---------------------------30/06/2021---------------------------
+https://dgeft87wbj63p.cloudfront.net/fb08feddbe4e8374537c_zwave69_42497414332_1625079872/chunked/index-dvr.m3u8 2021-06-30 19:04:32
+
+---------------------------01/07/2021---------------------------
+https://dgeft87wbj63p.cloudfront.net/4b74a500990673e733a2_zwave69_42508393756_1625166458/chunked/index-dvr.m3u8 2021-07-01 19:07:38
+
+
+!--------------------------Aminematue--------------------------!
+
+
+---------------------------25/06/2021---------------------------
+https://d1m7jfoe9zdc1j.cloudfront.net/25fab3c1239df33c8cd2_aminematue_42544325005_1624644808/chunked/index-dvr.m3u8 2021-06-25 18:13:28
+
+---------------------------26/06/2021---------------------------
+https://d1m7jfoe9zdc1j.cloudfront.net/16ff92b39c16c2babcfe_aminematue_42563685101_1624741256/chunked/index-dvr.m3u8 2021-06-26 21:00:56
+
+---------------------------27/06/2021---------------------------
+https://d1m7jfoe9zdc1j.cloudfront.net/866836523a04f10fd545_aminematue_42579992285_1624827373/chunked/index-dvr.m3u8 2021-06-27 20:56:13
+
+---------------------------28/06/2021---------------------------
+https://d1m7jfoe9zdc1j.cloudfront.net/a281f7225af027f3b038_aminematue_42596102189_1624917154/chunked/index-dvr.m3u8 2021-06-28 21:52:34
+
+---------------------------29/06/2021---------------------------
+https://dgeft87wbj63p.cloudfront.net/546146f6421700146424_aminematue_42485802140_1624990509/chunked/index-dvr.m3u8 2021-06-29 18:15:09
+
+---------------------------30/06/2021---------------------------
+https://dgeft87wbj63p.cloudfront.net/57eebbc5c4275b99dff0_aminematue_42495698860_1625072044/chunked/index-dvr.m3u8 2021-06-30 16:54:04
+
+---------------------------01/07/2021---------------------------
+https://dgeft87wbj63p.cloudfront.net/be120bfb316dddbf761d_aminematue_42507985468_1625164702/chunked/index-dvr.m3u8 2021-07-01 18:38:22
+
+
+D:&cd mpv&mpv.exe --lavfi-complex="[vid1][vid2]hstack[vo];[aid1][aid2]amix[ao]" --start=1:28:31 https://d1m7jfoe9zdc1j.cloudfront.net/bf7a1b683c3f25ed0249_aminematue_42404211805_1623870077/chunked/index-dvr.m3u8 --external-file=https://dgeft87wbj63p.cloudfront.net/66e1ae92b4c192d2dc0d_zwave69_42371119852_1623875388/chunked/index-dvr.m3u8
+mpv.exe --lavfi-complex="[vid1][vid2]hstack[vo];[aid1][aid2]amix[ao]" https://dgeft87wbj63p.cloudfront.net/66e1ae92b4c192d2dc0d_zwave69_42371119852_1623875388/chunked/index-dvr.m3u8 --external-file=https://d1m7jfoe9zdc1j.cloudfront.net/bf7a1b683c3f25ed0249_aminematue_42404211805_1623870077/chunked/index-dvr.m3u8

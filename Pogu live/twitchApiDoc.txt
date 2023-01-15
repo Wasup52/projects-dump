@@ -1,0 +1,551 @@
+[
+    {
+        "operationName": "Consent",
+        "variables": {
+            "id": "79c42d20-7619-4758-bd1e-d5d31e3d3e1a",
+            "includeNewCookieConsentFields": true,
+            "includeTCData": true
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "d6ccab80d28a5b199d5f8a9c3e3b2673e524b925d8e40912fd2d12a781cfb76c"
+            }
+        }
+    },
+    {
+        "operationName": "Ads_Components_AdManager_User",
+        "variables": {},
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "1fd9eeac7ab98004ee00dc6554e88759f1fa66ea94b97487f69b1ddf3a9d215b"
+            }
+        }
+    },
+    {
+        "operationName": "Prime_PrimeOffers_CurrentUser",
+        "variables": {},
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "a773b7efefe390d49753520f7db73d03794b008af6acc22c06a2c630d46d5518"
+            }
+        }
+    },
+    {
+        "operationName": "TopNav_CurrentUser",
+        "variables": {},
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "80c8ad4839b2922ac5ea7a6e38d8c88ab4c0462cf1c7f2d4d86542736ff3f916"
+            }
+        }
+    },
+    {
+        "operationName": "PersonalSections",
+        "variables": {
+            "input": {
+                "sectionInputs": [
+                    "RECOMMENDED_SECTION"
+                ],
+                "recommendationContext": {
+                    "platform": "web",
+                    "clientApp": "twilight",
+                    "channelID": null,
+                    "channelLanguage": null,
+                    "categoryID": null,
+                    "channelUptime": null,
+                    "lastChannelID": null,
+                    "lastCategoryID": null,
+                    "pageviewContent": null,
+                    "pageviewContentType": null,
+                    "pageviewLocation": null,
+                    "pageviewMedium": null,
+                    "previousPageviewContent": null,
+                    "previousPageviewContentType": null,
+                    "previousPageviewLocation": null,
+                    "previousPageviewMedium": null
+                }
+            },
+            "creatorAnniversariesExperimentEnabled": false,
+            "sideNavActiveGiftExperimentEnabled": false
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "469b047f12eef51d67d3007b7c908cf002c674825969b4fa1c71c7e4d7f1bbfb"
+            }
+        }
+    },
+    {
+        "operationName": "ChannelVideoCore",
+        "variables": {
+            "videoID": "1602009987"
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "cf1ccf6f5b94c94d662efec5223dfb260c9f8bf053239a76125a58118769e8e2"
+            }
+        }
+    },
+    {
+        "operationName": "UseViewCount",
+        "variables": {
+            "channelLogin": ""
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "00b11c9c428f79ae228f30080a06ffd8226a1f068d6f52fbc057cbde66e994c2"
+            }
+        }
+    },
+    {
+        "operationName": "RecommendationsContext_ChannelValues",
+        "variables": {
+            "login": "",
+            "videoID": "1602009987",
+            "collectionID": "",
+            "hasLogin": false,
+            "hasVideoID": true,
+            "hasCollectionID": false
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "5967b7138b631d78bb025f2bb50815d6aeb37f4da33c5c8fa8d8d6d29b5b4082"
+            }
+        }
+    },
+    {
+        "operationName": "DropCurrentSessionContext",
+        "variables": {},
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "2e4b3630b91552eb05b76a94b6850eb25fe42263b7cf6d06bee6d156dd247c1c"
+            }
+        }
+    },
+    {
+        "operationName": "VideoAdBanner",
+        "variables": {
+            "input": {
+                "login": "",
+                "ownsCollectionID": "",
+                "ownsVideoID": "1602009987"
+            }
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "4d9da3e74d52b668ad9f163a641236f2c804e1129f717f2861b362310e6c64c7"
+            }
+        }
+    },
+    {
+        "operationName": "VideoPlayer_MutedSegmentsAlertOverlay",
+        "variables": {
+            "includePrivate": false,
+            "vodID": "1602009987"
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "c36e7400657815f4704e6063d265dff766ed8fc1590361c6d71e4368805e0b49"
+            }
+        }
+    },
+    {
+        "operationName": "MatureGateOverlayBroadcaster",
+        "variables": {
+            "input": {
+                "ownsVideoID": "1602009987"
+            }
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "db5c4f54238cb6cde9d1ab49dab9d6388bb4990304766fcd70c1f37d4ed93bdb"
+            }
+        }
+    },
+    {
+        "operationName": "VideoPlayer_AgeGateOverlayBroadcaster",
+        "variables": {
+            "input": {
+                "login": null,
+                "ownsVideoID": "1602009987"
+            }
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "ab175a77fb908cd5dfe25d6d23da0765b3fc187e3d3461d1c7b157c354e917ee"
+            }
+        }
+    },
+    {
+        "operationName": "VideoPlayer_VideoSourceManager",
+        "variables": {
+            "input": {
+                "login": null,
+                "ownsVideoID": "1602009987",
+                "ownsCollectionID": null,
+                "broadcasterOfClipSlug": null
+            }
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "f5e1b35d6f5a40348c6476fea36945d0931ba50621e1701b6c31252ee498cc3e"
+            }
+        }
+    },
+    {
+        "operationName": "ComscoreStreamingQuery",
+        "variables": {
+            "channel": "",
+            "clipSlug": "",
+            "isClip": false,
+            "isLive": false,
+            "isVodOrCollection": true,
+            "vodID": "1602009987"
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "e1edae8122517d013405f237ffcc124515dc6ded82480a88daef69c83b53ac01"
+            }
+        }
+    },
+    {
+        "operationName": "VODMidrollManager",
+        "variables": {
+            "isVOD": true,
+            "vodID": "1602009987",
+            "isCollection": false,
+            "collectionID": ""
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "dcfb8c8cd3b721da5720fda11b9a20a3ab94be85ec04e8c2ac48ff69f300e959"
+            }
+        }
+    },
+    {
+        "operationName": "AdRequestHandling",
+        "variables": {
+            "isLive": false,
+            "login": "",
+            "isVOD": true,
+            "vodID": "1602009987",
+            "isCollection": false,
+            "collectionID": ""
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "3ad9132d1738b06958e16134a8f98d82ff6d9956357b4feaecba48ad8feaa88b"
+            }
+        }
+    },
+    {
+        "operationName": "NielsenContentMetadata",
+        "variables": {
+            "isCollectionContent": false,
+            "isLiveContent": false,
+            "isVODContent": true,
+            "collectionID": "",
+            "login": "",
+            "vodID": "1602009987"
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "2dbf505ee929438369e68e72319d1106bb3c142e295332fac157c90638968586"
+            }
+        }
+    },
+    {
+        "operationName": "ExtensionsForChannel",
+        "variables": {
+            "channelID": ""
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "37a5969f117f2f76bc8776a0b216799180c0ce722acb92505c794a9a4f9737e7"
+            }
+        }
+    },
+    {
+        "operationName": "PlayerTrackingContextQuery",
+        "variables": {
+            "isLive": false,
+            "hasCollection": false,
+            "collectionID": "",
+            "videoID": "1602009987",
+            "hasVideo": true,
+            "slug": "",
+            "hasClip": false
+        },
+        "extensions": {
+            "persistedQuery": {
+                "version": 1,
+                "sha256Hash": "3fbf508886ff5e008cb94047acc752aad7428c07b6055995604de16c4b01160a"
+            }
+        }
+    }
+]
+
+---------------------- VideoPlayer_MutedSegmentsAlertOverlay ----------------------
+
+request : [    
+    "operationName": "VideoPlayer_MutedSegmentsAlertOverlay",
+    "variables": {
+        "includePrivate": false,
+        "vodID": "1602009987"
+    },
+    "extensions": {
+        "persistedQuery": {
+            "version": 1,
+            "sha256Hash": "c36e7400657815f4704e6063d265dff766ed8fc1590361c6d71e4368805e0b49"
+        }
+    }
+]
+
+response : {
+    "data": {
+        "video": {
+            "id": "1602009987",
+            "muteInfo": {
+                "mutedSegmentConnection": {
+                    "nodes": [
+                        {
+                            "duration": 381,
+                            "offset": 4955,
+                            "__typename": "VideoMutedSegment"
+                        }
+                    ],
+                    "__typename": "VideoMutedSegmentConnection"
+                },
+                "__typename": "VideoMuteInfo"
+            },
+            "__typename": "Video"
+        }
+    },
+    "extensions": {
+        "durationMilliseconds": 53,
+        "operationName": "VideoPlayer_MutedSegmentsAlertOverlay",
+        "requestID": "01GE02K9F0JMD5WXNN8EP8DFF9"
+    }
+}
+
+---------------------- PlayerTrackingContextQuery ----------------------
+
+request : {
+    "operationName": "PlayerTrackingContextQuery",
+    "variables": {
+        "isLive": false,
+        "hasCollection": false,
+        "collectionID": "",
+        "videoID": "1602009987",
+        "hasVideo": true,
+        "slug": "",
+        "hasClip": false
+    },
+    "extensions": {
+        "persistedQuery": {
+            "version": 1,
+            "sha256Hash": "3fbf508886ff5e008cb94047acc752aad7428c07b6055995604de16c4b01160a"
+        }
+    }
+}
+
+response : {
+  "data": {
+    "currentUser": null,
+    "video": {
+      "id": "1602009987",
+      "broadcastType": "ARCHIVE",
+      "game": {
+        "id": "509658",
+        "name": "Just Chatting",
+        "__typename": "Game"
+      },
+      "__typename": "Video",
+      "owner": {
+        "id": "119657765",
+        "login": "maximebiaggi",
+        "isPartner": true,
+        "__typename": "User"
+      }
+    }
+  },
+  "extensions": {
+    "durationMilliseconds": 53,
+    "operationName": "PlayerTrackingContextQuery",
+    "requestID": "01GE02K9F0JMD5WXNN8EP8DFF9"
+  }
+}
+
+
+---------------------- VideoComments ----------------------
+
+request : {
+    "operationName": "VideoComments",
+    "variables": {
+        "videoID": "1602009987",
+        "hasVideoID": true
+    },
+    "extensions": {
+        "persistedQuery": {
+            "version": 1,
+            "sha256Hash": "f3b546321ec4632bcb83ee6a6dba91dad754fca3fd147ae26d9a7a0a096cfc60"
+        }
+    }
+}
+
+response : All the stuff used for the display of badges in the comments
+
+
+
+---------------------- VideoCommentsByOffsetOrCursor ----------------------
+
+
+request : {
+    "operationName": "VideoCommentsByOffsetOrCursor",
+    "variables": {
+        "videoID": "1602009987",
+        "contentOffsetSeconds": 0
+    },
+    "extensions": {
+        "persistedQuery": {
+            "version": 1,
+            "sha256Hash": "b70a3591ff0f4e0313d126c6a1502d79a1c02baebb288227c582044aa76adf6a"
+        }
+    }
+}
+
+response : the start of the chat messages
+
+
+----
+
+request : {
+    "operationName": "VideoPlayer_VODSeekbar",
+    "variables": {
+        "includePrivate": false,
+        "vodID": "1602009987"
+    },
+    "extensions": {
+        "persistedQuery": {
+            "version": 1,
+            "sha256Hash": "c67d32eba8f1c93b02e7efa6a278be46009e390ed5195c02dd0621e4c7ca14ac"
+        }
+    }
+}
+
+response : {
+  "data": {
+    "video": {
+      "id": "1602009987",
+      "lengthSeconds": 7019,
+      "muteInfo": {
+        "mutedSegmentConnection": {
+          "nodes": [
+            {
+              "duration": 381,
+              "offset": 4955,
+              "__typename": "VideoMutedSegment"
+            }
+          ],
+          "__typename": "VideoMutedSegmentConnection"
+        },
+        "__typename": "VideoMuteInfo"
+      },
+      "__typename": "Video"
+    }
+  },
+  "extensions": {
+    "durationMilliseconds": 51,
+    "operationName": "VideoPlayer_VODSeekbar",
+    "requestID": "01GE02K9VCC2MG0WJN0H4BE9HS"
+  }
+}
+
+
+
+---------------------- VideoMetadata ----------------------
+
+
+request : {
+    "operationName": "VideoMetadata",
+    "variables": {
+        "channelLogin": "maximebiaggi",
+        "videoID": "1602009987"
+    },
+    "extensions": {
+        "persistedQuery": {
+            "version": 1,
+            "sha256Hash": "49b5b8f268cdeb259d75b58dcb0c1a748e3b575003448a2333dc5cdafd49adad"
+        }
+    }
+}
+
+response : {
+    "data": {
+        "user": {
+            "id": "119657765",
+            "primaryColorHex": "0013A3",
+            "isPartner": true,
+            "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/994ba4ea-98ba-4446-a923-164e575ff498-profile_image-70x70.png",
+            "lastBroadcast": {
+                "id": "46111474716",
+                "startedAt": "2022-09-27T13:08:41.747581Z",
+                "__typename": "Broadcast"
+            },
+            "__typename": "User"
+        },
+        "currentUser": null,
+        "video": {
+            "id": "1602009987",
+            "title": "ZEN LATE SHOW AVEC CYPRIEN - on vous a reserve plein de surprises 😳😳😳",
+            "description": null,
+            "previewThumbnailURL": "https://static-cdn.jtvnw.net/cf_vods/dgeft87wbj63p/2c870ca642ec30c9b8a6_maximebiaggi_46108820252_1664214680//thumb/thumb0-90x60.jpg",
+            "createdAt": "2022-09-26T17:51:25Z",
+            "viewCount": 79686,
+            "publishedAt": "2022-09-26T17:51:25Z",
+            "lengthSeconds": 7019,
+            "broadcastType": "ARCHIVE",
+            "owner": {
+                "id": "119657765",
+                "login": "maximebiaggi",
+                "displayName": "MaximeBiaggi",
+                "__typename": "User"
+            },
+            "game": {
+                "id": "509658",
+                "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/509658-{width}x{height}.jpg",
+                "name": "Just Chatting",
+                "displayName": "Just Chatting",
+                "__typename": "Game"
+            },
+            "__typename": "Video"
+        }
+    },
+    "extensions": {
+        "durationMilliseconds": 42,
+        "operationName": "VideoMetadata",
+        "requestID": "01GE02KCBE5RG32NBBZMAG7YZC"
+    }
+}
+
+
+https://static-cdn.jtvnw.net/emoticons/v2/$emoteId/default/dark/1.0
+https://static-cdn.jtvnw.net/badges/v1/3267646d-33f0-4b17-b3df-f923a41db1d0/1

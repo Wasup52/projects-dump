@@ -1,0 +1,73 @@
+{
+    "Movement": {
+        "Forward": 0,
+        "Left": 2,
+        "Backward": 4,
+        "Right": 5,
+        "Jump": 7,
+        "Sprint": 9,
+        "Auto Run": 10,
+        "Crouch": 12
+    },
+    "Combat": {
+        "Fire": 16,
+        "Target": 18,
+        "Reload": 19,
+        "Use": 21,
+        "Harvesting Tool": 23,
+        "Weapon Slot 1": 24,
+        "Weapon Slot 2": 26,
+        "Weapon Slot 3": 28,
+        "Weapon Slot 4": 30,
+        "Weapon Slot 5": 31
+    },
+    "Building": {
+        "Crouch Whill Building": 35,
+        "Wall": 37,
+        "Floor": 38,
+        "Stairs": 40,
+        "Roof": 42,
+        "Trap": 44,
+        "Place Building": 45,
+        "Repair/Upgrade": 47,
+        "Rotate Building": 49,
+        "Change Building Material": 50,
+        "Building Edit": 52,
+        "Crouch Whill Editing": 54,
+        "Select Edit": 55,
+        "Reset Building Edit": 57
+    },
+    "Communication": {
+        "Ping/Place Marker": 61,
+        "Place Enemy Marker": 62,
+        "Push To Talk": 63,
+        "Squad Comms": 65,
+        "Chat": 67
+    },
+    "Emote": {
+        "Emote": 70
+    },
+    "Miscellaneous": {
+        "Trap Equip/Picker": 89,
+        "Switch Quickbar": 90,
+        "Slot Down": 92,
+        "Slot Up": 94,
+        "Previous Picker Wheel": 96,
+        "Next Picker Wheel": 97,
+        "Cursor Mode": 99,
+        "Toggle Map": 101,
+        "Toggle Inventory": 102,
+        "Carry": 104,
+        "Place Down KO player": 106,
+        "Carry Object": 107,
+        "Place Down Object": 109
+    },
+    "Vehicles - Motorboat": {
+        "Driver Boost": 215,
+        "Driver Fire": 216,
+        "Driver Targerting": 218,
+        "Driver Exit": 220,
+        "Passenger Use/Exit": 221,
+        "Switch Seat": 223
+    }
+}
